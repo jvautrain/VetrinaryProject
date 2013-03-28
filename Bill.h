@@ -10,6 +10,7 @@
 
 class Bill
 {
+
 private:
 	DateTime invoiceDate;
 	DateTime dueDate;
