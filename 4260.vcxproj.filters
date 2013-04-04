@@ -23,44 +23,44 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Clinic.h">
-      <Filter>Source Files</Filter>
-    </ClInclude>
     <ClInclude Include="Address.h">
-      <Filter>Source Files</Filter>
+      <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Assistant.h">
-      <Filter>Source Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Customer.h">
-      <Filter>Source Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Employee.h">
-      <Filter>Source Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Manager.h">
-      <Filter>Source Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Payment.h">
-      <Filter>Source Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Phone.h">
-      <Filter>Source Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Practitioner.h">
-      <Filter>Source Files</Filter>
-    </ClInclude>
-    <ClInclude Include="TimeEntry.h">
-      <Filter>Source Files</Filter>
+      <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Bill.h">
-      <Filter>Source Files</Filter>
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Clinic.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Customer.h">
+      <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="DateTime.h">
-      <Filter>Source Files</Filter>
+      <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Visit.h">
-      <Filter>Source Files</Filter>
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TimeEntry.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Practitioner.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Phone.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Payment.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Manager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Employee.h">
+      <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
