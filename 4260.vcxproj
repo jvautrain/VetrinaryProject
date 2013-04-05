@@ -74,8 +74,20 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Address.cpp" />
+    <ClCompile Include="Assistant.cpp" />
+    <ClCompile Include="Bill.cpp" />
     <ClCompile Include="Clinic.cpp" />
+    <ClCompile Include="Customer.cpp" />
+    <ClCompile Include="DateTime.cpp" />
+    <ClCompile Include="Employee.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Manager.cpp" />
+    <ClCompile Include="Payment.cpp" />
+    <ClCompile Include="Phone.cpp" />
+    <ClCompile Include="Practitioner.cpp" />
+    <ClCompile Include="TimeEntry.cpp" />
+    <ClCompile Include="Visit.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Address.h" />

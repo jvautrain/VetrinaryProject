@@ -8,14 +8,14 @@
 
 using namespace std;
 
-double Assistant::setCompensation()
+bool Assistant::setCompensation(double)
 {
 	cout << "Inside of Assistant, within setCompensation()" << endl;
 }
 
 double Assistant::getWage() const
 {
-	cout << "Inside of Assistant, within getWage()" << endl;
+	return hourlyWageAmount;
 }
 
 void promptAndStoreAssistantInfo()
