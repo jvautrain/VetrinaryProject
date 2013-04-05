@@ -12,9 +12,9 @@ class Employee
 {
 private:
 	int employeeID;
-	String firstName;
-	String lastName;
-	String middleName;
+	string firstName;
+	string lastName;
+	string middleName;
 	DateTime hireDate;
 	DateTime terminationDate;
 	string gender;

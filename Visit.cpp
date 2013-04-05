@@ -27,7 +27,7 @@ bool Visit::setDate(DateTime)
 {
 	cout << "Inside of Visit, within setDate()" << endl;
 }
-bool Visit::setComplaint(String)
+bool Visit::setComplaint(string)
 {
 	cout << "Inside of Visit, within setComplaint()" << endl;
 }
@@ -35,11 +35,11 @@ bool Visit::setFollowUpDate(DateTime)
 {
 	cout << "Inside of Visit, within setFollowUpDate()" << endl;
 }
-bool Visit::setCondition(String)
+bool Visit::setCondition(string)
 {
 	cout << "Inside of Visit, within setCondition()" << endl;
 }
-bool Visit::setTreatment(String)
+bool Visit::setTreatment(string)
 {
 	cout << "Inside of Visit, within setTreatment()" << endl;
 }
@@ -47,15 +47,15 @@ DateTime Visit::getDate() const
 {
 	cout << "Inside of Visit, within getDate()" << endl;
 }
-String Visit::getComplaint() const
+string Visit::getComplaint() const
 {
 	cout << "Inside of Visit, within getComplaint()" << endl;
 }
-String Visit::getCondition() const
+string Visit::getCondition() const
 {
 	cout << "Inside of Visit, within getCondition()" << endl;
 }
-String Visit::getTreatment() const
+string Visit::getTreatment() const
 {
 	cout << "Inside of Visit, within getTreatment()" << endl;
 }

@@ -13,15 +13,15 @@ class Payment
 private:
 	DateTime dateReceived;
 	double amountReceived;
-	String paymentMethod;
+	string paymentMethod;
 	void promptAndStorePaymentInformation();
 public:
 	Payment();
 	bool setDate(DateTime);
 	bool setAmount(double);
-	bool setMethod(String);
+	bool setMethod(string);
 	DateTime getDate() const;
 	double getAmount() const;
-	String getMethod() const;
+	string getMethod() const;
 };
 #endif

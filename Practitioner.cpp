@@ -10,7 +10,7 @@
 
 using namespace std;
 
-bool Practitioner::setCertification(DateTime, String)
+bool Practitioner::setCertification(DateTime, string)
 {
 	cout << "Inside of Practitioner, within setCertification()" << endl;
 }
@@ -18,7 +18,7 @@ bool Practitioner::setPrescriber(bool)
 {
 	cout << "Inside of Practitioner, within setPrescriber()" << endl;
 }
-bool Practitioner::setSpecialty(String)
+bool Practitioner::setSpecialty(string)
 {
 	cout << "Inside of Practitioner, within setSpecialty()" << endl;
 }
@@ -26,7 +26,7 @@ bool Practitioner::setCompensation(double)
 {
 	cout << "Inside of Practitioner, within setCompensation()" << endl;
 }
-String Practitioner::getCertification() const
+string Practitioner::getCertification() const
 {
 	cout << "Inside of Practitioner, within getCertification()" << endl;
 }

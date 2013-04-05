@@ -26,7 +26,7 @@ bool TimeEntry::setEnd(DateTime)
 {
 	cout << "Inside of TimeEntry, within setEnd()" << endl;
 }
-bool TimeEntry::adjust(String, DateTime)
+bool TimeEntry::adjust(string, DateTime)
 {
 	cout << "Inside of TimeEntry, within adjust()" << endl;
 }
@@ -42,7 +42,7 @@ DateTime TimeEntry::getAdjustmentDate() const
 {
 	cout << "Inside of TimeEntry, within getAdjustmentDate()" << endl;
 }
-String TimeEntry::getAdjustmentComment() const
+string TimeEntry::getAdjustmentComment() const
 {
 	cout << "Inside of TimeEntry, within getAdjustmentComment()" << endl;
 }

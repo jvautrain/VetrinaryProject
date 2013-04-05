@@ -5,7 +5,8 @@
 //*****************************************************************************
 #include <string>
 #include "Address.h"
-#include "Employee.h"
+
+class Employee;
 
 #ifndef CUSTOMER_H
 #define CUSTOMER_H

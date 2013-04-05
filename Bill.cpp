@@ -3,33 +3,32 @@
 //	Author:	Joshua Vautrain and Chris Drope
 //	Notes:	Implementation file for bill class	
 //*****************************************************************************
-#include <string>
-#include "DateTime.h"
-#include "Bill.h"
 #include <iostream>
+#include "Bill.h"
+
 using namespace std;
 
 bool Bill::setDates(DateTime, DateTime)
 {
 	cout << "Inside of Bill, within setDates()" << endl;
 }
-bool Bill::setCare(double, String)
+bool Bill::setCare(double, string)
 {
 	cout << "Inside of Bill, within setCare()" << endl;
 }
-bool Bill::setProcedure(double, String)
+bool Bill::setProcedure(double, string)
 {
 	cout << "Inside of Bill, within setProcedure()" << endl;
 }
-bool Bill::setScript(double, String)
+bool Bill::setScript(double, string)
 {
 	cout << "Inside of Bill, within setScript()" << endl;
 }
-bool Bill::setAdjustment(double String)
+bool Bill::setAdjustment(double, string)
 {
 	cout << "Inside of Bill, within setAdjustment()" << endl;
 }
-bool Bill::setTax(double, String)
+bool Bill::setTax(double, string)
 {
 	cout << "Inside of Bill, within setTax()" << endl;
 }
@@ -45,7 +44,7 @@ double Bill::getCareAmount() const
 {
 	cout << "Inside of Bill, within getCareAmount()" << endl;
 }
-String Bill::getCareDescription() const
+string Bill::getCareDescription() const
 {
 	cout << "Inside of Bill, within getCareDescription()" << endl;
 }
@@ -53,7 +52,7 @@ double Bill::getProcedureAmount() const
 {
 	cout << "Inside of Bill, within getProcedureAmount()" << endl;
 }
-String Bill::getProcedureDescription() const
+string Bill::getProcedureDescription() const
 {
 	cout << "Inside of Bill, within getProcedureDescription()" << endl;
 }
@@ -61,7 +60,7 @@ double Bill::getScriptAmount() const
 {
 	cout << "Inside of Bill, within getScriptAmount()" << endl;
 }
-String Bill::getScriptDescription() const
+string Bill::getScriptDescription() const
 {
 	cout << "Inside of Bill, within getScriptDescription()" << endl;
 }
@@ -69,7 +68,7 @@ double Bill::getAdjustmentAmount() const
 {
 	cout << "Inside of Bill, within getAdjustmentAmount()" << endl;
 }
-String Bill::getAdjustmentDescription() const
+string Bill::getAdjustmentDescription() const
 {
 	cout << "Inside of Bill, within getAdjustmentDescription()" << endl;
 }
@@ -77,7 +76,7 @@ double Bill::getTaxAmount() const
 {
 	cout << "Inside of Bill, within getTaxAmount()" << endl;
 }
-String Bill::getDescription() const
+string Bill::getDescription() const
 {
 	cout << "Inside of Bill, within getDescription()" << endl;
 }

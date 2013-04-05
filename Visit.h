@@ -13,9 +13,9 @@ class Visit
 {
 private:
 	DateTime date;
-	String complaint;
-	String condition;
-	String treatment;
+	string complaint;
+	string condition;
+	string treatment;
 	DateTime followUpDate;
 	Practitioner practitioner;
 	void promptForComplaint();
@@ -23,14 +23,14 @@ private:
 	void promptForTreatment()
 public:
 	bool setDate(DateTime);
-	bool setComplaint(String);
+	bool setComplaint(string);
 	bool setFollowUpDate(DateTime);
-	bool setConditionString);
-	bool setTreatment(String);
+	bool setConditionstring);
+	bool setTreatment(string);
 	DateTime getDate() const;
-	String getComplaint() const;
-	String getCondition() const;
-	String getTreatment() const;
+	string getComplaint() const;
+	string getCondition() const;
+	string getTreatment() const;
 	DateTime getFollowUpDate() const;
 	void newPayment();
 };

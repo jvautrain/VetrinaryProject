@@ -3,18 +3,18 @@
 //	Author:	Joshua Vautrain and Chris Drope
 //	Notes:	Address class.
 //*****************************************************************************
-#include <string>
-
 #ifndef ADDRESS_H
 #define ADDRESS_H
+
+#include <string>
 
 class Address
 {
 	Public:
-		String addressLine1;
-		String addressLine2;//TODO discuss this.
-		String city;		//Consider use of struct here or providing accessor and mutator functions.
-		String state;
-		String zip;
+		string addressLine1;
+		string addressLine2;//TODO discuss this.
+		string city;		//Consider use of struct here or providing accessor and mutator functions.
+		string state;
+		string zip;
 };
 #endif

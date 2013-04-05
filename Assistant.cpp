@@ -3,8 +3,8 @@
 //	Author:	Joshua Vautrain and Chris Drope
 //	Notes:	Extends Employee for assistant sub class	
 //*****************************************************************************
-#include "Assistant.h"
 #include <iostream>
+#include "Assistant.h"
 
 using namespace std;
 

@@ -9,15 +9,15 @@
 
 using namespace std;
 
-void Phone::setPhone(String)
+void Phone::setPhone(string)
 {
 	cout << "Inside of Phone, within setPhone()" << endl;
 }
-void Phone::setPhone(String,String,String) //TODO: Need to add to visio
+void Phone::setPhone(string,string,string) //TODO: Need to add to visio
 {
 	cout << "Inside of Phone, within setPhone()" << endl;
 } 
-String Phone::getPhone() const
+string Phone::getPhone() const
 {
 	cout << "Inside of Phone, within getPhone()" << endl;
 }

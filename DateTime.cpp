@@ -46,9 +46,9 @@ int DateTime::getSecond() const
 {
 	cout << "Inside of DateTime, within getSecond()" << endl;
 }
-string DateTime::toString() const
+string DateTime::tostring() const
 {
-	cout << "Inside of DateTime, within toString()" << endl;
+	cout << "Inside of DateTime, within tostring()" << endl;
 }
 bool DateTime::setYear(int)
 {

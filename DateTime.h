@@ -28,7 +28,7 @@ public:
 	int getHour() const;
 	int getMinute() const;
 	int getSecond() const;
-	string toString() const;
+	string tostring() const;
 
 	bool setYear(int);
 	bool setMonth(int);

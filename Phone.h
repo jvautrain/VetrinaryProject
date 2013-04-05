@@ -11,12 +11,12 @@
 class Phone
 {
 private:
-	String areaCode;
-	String exchangeCode;
-	String lineNumber;
+	string areaCode;
+	string exchangeCode;
+	string lineNumber;
 public:
-	setPhone(String);
-	setPhone(String,String,String);  //TODO: Need to add to visio
-	String getPhone() const;
+	setPhone(string);
+	setPhone(string,string,string);  //TODO: Need to add to visio
+	string getPhone() const;
 };
 #endif

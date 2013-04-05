@@ -14,16 +14,16 @@ private:
 	DateTime startDateTime;
 	DateTime endDateTime;
 	DateTime adjustmentDateTime;
-	String adjustmentComment;	
+	string adjustmentComment;	
 	void promptAndStoreTimeEntryDetails(); //Need to define this (is it private) or should inteface functions be used....
 public:
 	TimeEntry(DateTime);
 	bool setStart(DateTime);
 	bool setEnd(DateTime);
-	bool adjust(String, DateTime);
+	bool adjust(string, DateTime);
 	DateTime getStart() const;
 	DateTime getEnd() const;
 	DateTime getAdjustmentDate() const;
-	String getAdjustmentComment() const;
+	string getAdjustmentComment() const;
 };
 #endif

@@ -26,7 +26,7 @@ bool Payment::setAmount(double)
 {
 	cout << "Inside of Payment, within setAmount()" << endl;
 }
-bool Payment::setMethod(String)
+bool Payment::setMethod(string)
 {
 	cout << "Inside of Payment, within setMethod()" << endl;
 }
@@ -38,7 +38,7 @@ double Payment::getAmount() const
 {
 	cout << "Inside of Payment, within getAmount()" << endl;
 }
-String Payment::getMethod() const
+string Payment::getMethod() const
 {
 	cout << "Inside of Payment, within getMethod()" << endl;
 }

@@ -3,10 +3,12 @@
 //	Author:	Joshua Vautrain and Chris Drope
 //	Notes:	Header file for bill class	
 //*****************************************************************************
-#include <string>
-#include "DateTime.h"
 #ifndef BILL_H
 #define BILL_H
+
+#include <string>
+
+class DateTime;
 
 class Bill
 {
@@ -14,33 +16,33 @@ class Bill
 private:
 	DateTime invoiceDate;
 	DateTime dueDate;
-	String careDescription;
+	string careDescription;
 	double procedureAmount;
-	String procedureDescription;
+	string procedureDescription;
 	double adjustmentAmount;
-	String adjustmentDescription;
+	string adjustmentDescription;
 	double taxAmount;
-	String taxDescription;
+	string taxDescription;
 	void promptAndStoreBillInfo();
 public:
 	bool setDates(DateTime, DateTime);
-	bool setCare(double, String);
-	bool setProcedure(double, String);
-	bool setScript(double, String);
-	bool setAdjustment(double String);
-	bool setTax(double, String);
+	bool setCare(double, string);
+	bool setProcedure(double, string);
+	bool setScript(double, string);
+	bool setAdjustment(double string);
+	bool setTax(double, string);
 	DateTime getInvoiceDate() const;
 	DateTime getDueDate() const;
 	double getCareAmount() const;
-	String getCareDescription() const;
+	string getCareDescription() const;
 	double getProcedureAmount() const;
-	String getProcedureDescription() const;
+	string getProcedureDescription() const;
 	double getScriptAmount() const;
-	String getScriptDescription() const;
+	string getScriptDescription() const;
 	double getAdjustmentAmount() const;
-	String getAdjustmentDescription() const;
+	string getAdjustmentDescription() const;
 	double getTaxAmount() const;
-	String getDescription() const;
+	string getDescription() const;
 	double getSubTotal() const;
 	double getTotal() const;
 	void newPayment() const;

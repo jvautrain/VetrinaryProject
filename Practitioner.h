@@ -12,17 +12,17 @@
 class Practitioner: public Employee
 {
 private:
-	String certification;
+	string certification;
 	DateTime certExpirationDate;
 	bool prescriber;
-	String specialty;
+	string specialty;
 	double salaryAmount;
 public:
-	bool setCertification(DateTime, String);
+	bool setCertification(DateTime, string);
 	bool setPrescriber(bool);
-	bool setSpecialty(String);
+	bool setSpecialty(string);
 	bool setCompensation(double);
-	String getCertification() const;
+	string getCertification() const;
 	DateTime getCertExpirationDate() const;
 	bool getPrescriber() const;
 	double getSalary() const;

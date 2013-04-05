@@ -3,9 +3,10 @@
 //	Author:	Joshua Vautrain and Chris Drope
 //	Notes:	Extends Employee for assistant sub class	
 //*****************************************************************************
-#include "Employee.h"
 #ifndef ASSISTANT_H
 #define ASSISTANT_H
+
+#include "Employee.h"
 
 class Assistant: public Employee
 {
