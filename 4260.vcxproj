@@ -78,6 +78,7 @@
     <ClCompile Include="Assistant.cpp" />
     <ClCompile Include="Bill.cpp" />
     <ClCompile Include="Clinic.cpp" />
+    <ClCompile Include="ClinicTest.cpp" />
     <ClCompile Include="Customer.cpp" />
     <ClCompile Include="DateTime.cpp" />
     <ClCompile Include="Employee.cpp" />

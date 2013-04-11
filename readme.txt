@@ -7,6 +7,10 @@ Assistant promptAndStoreAssistantInfo: Discuss use, possibly cut and make robust
 
 promptAndStore - in general, seems to be just "populate object", perhaps reform?
 
+//Customer-setCustomerInfo() pruned
+
+//Address class, accessers/mutators. 
+//if not, how to test boolean repeatedly for "getAddress" methods?
 
 
 

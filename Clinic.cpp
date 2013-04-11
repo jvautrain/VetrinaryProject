@@ -4,8 +4,11 @@
 //	Notes:	Header file for controller class	
 //*****************************************************************************
 
-#include "Clinic.h"
 #include <iostream>
+#include "Clinic.h"
+#include "Customer.h"
+#include "Employee.h"
+
 
 	//*****************************************************************************
 	// Constructor
@@ -27,8 +30,9 @@
 	// newCustomer adds new customer
 	void Clinic::newCustomer()
 	{
-		using namespace std;
-		cout << "Add new Customer" << endl;
+		Customer newCustomer;
+		newCustomer.promptForCustomerInfo();
+		customers.push_back(newCustomer);
 	}
 
 	//*****************************************************************************
@@ -36,7 +40,9 @@
 	void Clinic::editCustomer()
 	{
 		using namespace std;
-		cout << "Edit existong customer" << endl;
+
+
+		cout << "Edit existing customer" << endl;
 	}
 
 	//*****************************************************************************

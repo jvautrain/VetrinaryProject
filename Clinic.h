@@ -4,9 +4,13 @@
 //	Notes:	Header file for controller class	
 //*****************************************************************************
 #include <string>
+#include <list>
 
 #ifndef CLINIC_H
 #define CLINIC_H
+
+class Customer;
+class Employee;
 
 class Clinic
 {
@@ -67,6 +71,11 @@ class Clinic
 	//****************************************************************************
 	// newPayment logs a new payment for a Bill
 	void newPayment();
+
+private:
+	List<Customer> customers;
+	List<Employee> employees;
+
 };
 
 

@@ -13,11 +13,40 @@ using namespace std;
 
 Customer::Customer()
 {
+	customerID = ++numCustomers;
 	cout << "Inside of Customer, within Customer()" << endl;
 }
 bool Customer::promptForCustomerInfo()
 {
+	string tempString;
+	Address newCustAddress;
 	cout << "Inside of Customer, within promptForCustomerInfo()" << endl;
+	cout << "Please enter a first name: ";
+	cin >> tempString;
+	setFirstName(tempString);
+	cout << "Please enter a middle name: ";
+	cin >> tempString;
+	setMiddleName(tempString);
+	cout << "Please enter a last name: ";
+	cin >> tempString;
+	setLastName(tempString);
+	cout << "Please enter address line 1: ";
+	cin >> tempString;
+	address.addressLine1 = tempString;
+	cout << "Please enter address line 2: ";
+	cin >> tempString;
+	address.addressLine2 = tempString;
+	cout << "Please enter the city: ";
+	cin >> tempString;
+	address.city = tempString;
+	cout << "Please enter the state: ";
+	cin >> tempString;
+	address.state = tempString;
+	cout << "Please enter the zip code: ";
+	cin >> tempString;
+	address.zip = tempString;
+	setAddress(newCustAddress);
+
 }
 std::string Customer::Customer::promptForPetType()
 {
@@ -27,41 +56,43 @@ void Customer::promptForCloseAccountReason()
 {
 	cout << "Inside of Customer, within promptForCloseAccountReason()" << endl;
 }
-bool Customer::setFirstName(std::string)
+bool Customer::setFirstName(string _firstName)
 {
-	cout << "Inside of Customer, within setFirstName()" << endl;
+	bool success = (_firstName != null && _firstName != ""); 
+	firstName = _firstName;
+	return success;
 }
 std::string Customer::getFirstname() const
 {
 	cout << "Inside of Customer, within getFirstname()" << endl;
 }
-bool Customer::setLastName(std::string)
+bool Customer::setLastName(string _lastName)
 {
-	cout << "Inside of Customer, within setLastName()" << endl;
+	bool success = (_lastName != null && _lastName != ""); 
+	lastName = _lastName;
+	return success;
 }
 std::string Customer::getLastname() const
 {
 	cout << "Inside of Customer, within getLastname()" << endl;
 }
-bool Customer::setMiddleName(std::string)
+bool Customer::setMiddleName(string _middleName)
 {
-	cout << "Inside of Customer, within setMiddleName()" << endl;
+	bool success = (_middleName != null && _middleName != ""); 
+	middleName = _middleName;
+	return success;
 }
 std::string Customer::getMiddlename() const
 {
 	cout << "Inside of Customer, within getMiddlename()" << endl;
 }
-bool Customer::setAddress(Address)
+bool Customer::setAddress(Address _address)
 {
-	cout << "Inside of Customer, within setAddress()" << endl;
+	address = _address;
 }
 Address Customer::getAddress() const
 {
 	cout << "Inside of Customer, within getAddress()" << endl;
-}
-bool Customer::setCustomerInfo()
-{
-	cout << "Inside of Customer, within setCustomerInfo()" << endl;
 }
 std::string Customer::promptForPetName()
 {

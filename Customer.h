@@ -14,17 +14,18 @@ class Employee;
 class Customer
 {
 private:
+	static numCustomers = 0;
 	std::string firstName;
 	std::string lastName;
 	std::string middleName;
 	int customerID;
 	Address address;
 	std::string closeReason;
-	bool promptForCustomerInfo();
 	std::string promptForPetType();
 	void promptForCloseAccountReason();
 public:
 	Customer();
+	bool promptForCustomerInfo();
 	bool setFirstName(std::string);
 	std::string getFirstname() const;
 	bool setLastName(std::string);
@@ -33,7 +34,6 @@ public:
 	std::string getMiddlename() const;
 	bool setAddress(Address);
 	Address getAddress() const;
-	bool setCustomerInfo();
 	std::string promptForPetName();
 	void editCustomer();
 	void newPatient();
