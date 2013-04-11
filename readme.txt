@@ -14,3 +14,7 @@ promptAndStore - in general, seems to be just "populate object", perhaps reform?
 
 
 
+//power flickering, lost some code
+//started on editcustomer in clinic, goal is: search by last name, return small set of customers, if more than one, show set of info and prompt for ID of correct one.
+// remove that one from linked list
+// modify, and re-add it.

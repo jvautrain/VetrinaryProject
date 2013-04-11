@@ -40,9 +40,13 @@
 	void Clinic::editCustomer()
 	{
 		using namespace std;
-
-
-		cout << "Edit existing customer" << endl;
+		Customer tempCustomer;
+		string nameString;
+		cout << "Enter customer last name: " << endl;
+		cin >> nameString;
+		tempCustomer.setLastName(nameString);
+		
+		
 	}
 
 	//*****************************************************************************
