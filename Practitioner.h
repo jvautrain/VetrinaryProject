@@ -5,9 +5,10 @@
 //*****************************************************************************
 #include <string>
 #include "Employee.h"
-#include "DateTime.h"
 #ifndef PRACTITIONER_H
 #define PRACTITIONER_H
+
+class DateTime;
 
 class Practitioner: public Employee
 {

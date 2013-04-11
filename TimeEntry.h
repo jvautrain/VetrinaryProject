@@ -4,9 +4,10 @@
 //	Notes:	This is thetime entry record for an employee
 //*****************************************************************************
 #include <string>
-#include "DateTime.h"
 #ifndef TIMEENTRY_H
 #define TIMEENTRY_H
+
+class DateTime;
 
 class TimeEntry
 {

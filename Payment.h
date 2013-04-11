@@ -4,9 +4,11 @@
 //	Notes:	Class for payments
 //*****************************************************************************
 #include <string>
-#include "DateTime.h"
+
 #ifndef PAYMENT_H
 #define PAYMENT_H
+
+class DateTime;
 
 class Payment
 {

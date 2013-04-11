@@ -12,8 +12,8 @@ class Address
 {
 	Public:
 		string addressLine1;
-		string addressLine2;//TODO discuss this.
-		string city;		//Consider use of struct here or providing accessor and mutator functions.
+		string addressLine2;
+		string city;
 		string state;
 		string zip;
 };

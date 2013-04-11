@@ -4,9 +4,11 @@
 //	Notes:	This is the parent class for all employees
 //*****************************************************************************
 #include <string>
-#include "DateTime.h"
+
 #ifndef EMPLOYEE_H
 #define EMPLOYEE_H
+
+class DateTime;
 
 class Employee
 {

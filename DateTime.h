@@ -5,9 +5,7 @@
 //*****************************************************************************
 #ifndef DATETIME_H
 #define DATETIME_H
-#include <ctime>
 #include <string>
-#include <iostream>
 
 class DateTime
 {

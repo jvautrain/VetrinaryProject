@@ -4,7 +4,6 @@
 //	Notes:	Header file for controller class	
 //*****************************************************************************
 #include <string>
-#include <iostream>
 
 #ifndef CLINIC_H
 #define CLINIC_H

@@ -4,8 +4,8 @@
 //	Notes:	customer class
 //*****************************************************************************
 #include <string>
-#include "Address.h"
 
+class Address;
 class Employee;
 
 #ifndef CUSTOMER_H

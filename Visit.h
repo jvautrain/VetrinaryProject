@@ -4,10 +4,12 @@
 //	Notes:	Header file for visit class	
 //*****************************************************************************
 #include <string>
-#include "DateTime.h"
-#include "Practitioner.h"
+
 #ifndef VISIT_H
 #define VISIT_H
+
+class DateTime;
+class Practitioner;
 
 class Visit
 {
