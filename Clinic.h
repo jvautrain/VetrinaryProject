@@ -4,7 +4,7 @@
 //	Notes:	Header file for controller class	
 //*****************************************************************************
 #include <string>
-#include <list>
+#include <vector>
 
 #ifndef CLINIC_H
 #define CLINIC_H
@@ -73,8 +73,8 @@ class Clinic
 	void newPayment();
 
 private:
-	List<Customer> customers;
-	List<Employee> employees;
+	vector<Customer> customers;
+	vector<Employee> employees;
 
 };
 
