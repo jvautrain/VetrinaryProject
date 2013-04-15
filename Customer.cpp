@@ -50,9 +50,10 @@ bool Customer::promptForCustomerInfo()
 	setAddress(newCustAddress);
 
 }
-std::string Customer::Customer::promptForPetType()
+std::string Customer::promptForPetType()
 {
 	cout << "Inside of Customer, within promptForPetType()" << endl;
+	return "";
 }
 void Customer::promptForCloseAccountReason()
 {
@@ -60,7 +61,7 @@ void Customer::promptForCloseAccountReason()
 }
 bool Customer::setFirstName(string _firstName)
 {
-	bool success = (_firstName != null && _firstName != ""); 
+	bool success = (_firstName != ""); 
 	firstName = _firstName;
 	return success;
 }
@@ -70,7 +71,7 @@ std::string Customer::getFirstname() const
 }
 bool Customer::setLastName(string _lastName)
 {
-	bool success = (_lastName != null && _lastName != ""); 
+	bool success = (_lastName != ""); 
 	lastName = _lastName;
 	return success;
 }
@@ -80,7 +81,7 @@ std::string Customer::getLastname() const
 }
 bool Customer::setMiddleName(string _middleName)
 {
-	bool success = (_middleName != null && _middleName != ""); 
+	bool success = (_middleName != ""); 
 	middleName = _middleName;
 	return success;
 }
@@ -90,7 +91,7 @@ std::string Customer::getMiddlename() const
 }
 bool Customer::setAddress(Address _address)
 {
-	address = _address;
+	addr = _address;
 }
 Address Customer::getAddress() const
 {

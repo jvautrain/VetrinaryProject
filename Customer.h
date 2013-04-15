@@ -7,8 +7,8 @@
 #define CUSTOMER_H
 
 #include <string>
-
-class Address;
+#include "Address.h"
+//class Address;
 class Employee;
 
 class Customer
