@@ -3,23 +3,23 @@
 //	Author:	Joshua Vautrain and Chris Drope
 //	Notes:	customer class
 //*****************************************************************************
+#ifndef CUSTOMER_H
+#define CUSTOMER_H
+
 #include <string>
 
 class Address;
 class Employee;
 
-#ifndef CUSTOMER_H
-#define CUSTOMER_H
-
 class Customer
 {
 private:
-	static numCustomers = 0;
+	static int numCustomers;
 	std::string firstName;
 	std::string lastName;
 	std::string middleName;
 	int customerID;
-	Address address;
+	Address addr;
 	std::string closeReason;
 	std::string promptForPetType();
 	void promptForCloseAccountReason();

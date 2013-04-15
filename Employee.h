@@ -14,15 +14,15 @@ class Employee
 {
 private:
 	int employeeID;
-	string firstName;
-	string lastName;
-	string middleName;
+	std::string firstName;
+	std::string lastName;
+	std::string middleName;
 	DateTime hireDate;
 	DateTime terminationDate;
-	string gender;
+	std::string gender;
 public:
 	Employee(string);
-	bool setEmployeeName(string, string, string);
+	bool setEmployeeNamestd::(string, std::string, std::string);
 	bool terminateEmployee(DateTime);
 	void addTimeEntry();
 	//need to add employee information entry functions

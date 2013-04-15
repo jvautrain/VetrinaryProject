@@ -11,6 +11,8 @@
 
 using namespace std;
 
+int Customer::numCustomers = 0;
+
 Customer::Customer()
 {
 	customerID = ++numCustomers;
@@ -32,19 +34,19 @@ bool Customer::promptForCustomerInfo()
 	setLastName(tempString);
 	cout << "Please enter address line 1: ";
 	cin >> tempString;
-	address.addressLine1 = tempString;
+	addr.addressLine1 = tempString;
 	cout << "Please enter address line 2: ";
 	cin >> tempString;
-	address.addressLine2 = tempString;
+	addr.addressLine2 = tempString;
 	cout << "Please enter the city: ";
 	cin >> tempString;
-	address.city = tempString;
+	addr.city = tempString;
 	cout << "Please enter the state: ";
 	cin >> tempString;
-	address.state = tempString;
+	addr.state = tempString;
 	cout << "Please enter the zip code: ";
 	cin >> tempString;
-	address.zip = tempString;
+	addr.zip = tempString;
 	setAddress(newCustAddress);
 
 }

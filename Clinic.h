@@ -3,18 +3,24 @@
 //	Author:	Joshua Vautrain and Chris Drope
 //	Notes:	Header file for controller class	
 //*****************************************************************************
-#include <string>
-#include <vector>
+
 
 #ifndef CLINIC_H
 #define CLINIC_H
+
+#include <string>
+#include <vector>
 
 class Customer;
 class Employee;
 
 class Clinic
 {
-	public:
+private:
+	std::vector<Customer> customers;
+	std::vector<Employee> employees;
+
+public:
 	
 	//*****************************************************************************
 	// Constructor
@@ -72,9 +78,7 @@ class Clinic
 	// newPayment logs a new payment for a Bill
 	void newPayment();
 
-private:
-	vector<Customer> customers;
-	vector<Employee> employees;
+
 
 };
 
