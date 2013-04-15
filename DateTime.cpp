@@ -12,77 +12,78 @@
 
 DateTime::DateTime()
 {
-	cout << "Inside of DateTime, within DateTime()" << endl;
+	std::cout << "Inside of DateTime, within DateTime()" << std::endl;
 }
 DateTime::DateTime(int, int, int, int, int, int)
 {
-	cout << "Inside of DateTime, within DateTime()" << endl;
+	std::cout << "Inside of DateTime, within DateTime()" << std::endl;
 }
 DateTime::DateTime(std::string)
 {
-	cout << "Inside of DateTime, within DateTime()" << endl;
+	std::cout << "Inside of DateTime, within DateTime()" << std::endl;
 }
 int DateTime::getYear() const
 {
-	cout << "Inside of DateTime, within getYear()" << endl;
+	std::cout << "Inside of DateTime, within getYear()" << std::endl;
 }
 int DateTime::getMonth() const
 {
-	cout << "Inside of DateTime, within getMonth()" << endl;
+	std::cout << "Inside of DateTime, within getMonth()" << std::endl;
 }
 int DateTime::getDay() const
 {
-	cout << "Inside of DateTime, within getDay()" << endl;
+	std::cout << "Inside of DateTime, within getDay()" << std::endl;
 }
 int DateTime::getHour() const
 {
-	cout << "Inside of DateTime, within getHour()" << endl;
+	std::cout << "Inside of DateTime, within getHour()" << std::endl;
 }
 int DateTime::getMinute() const
 {
-	cout << "Inside of DateTime, within getMinute()" << endl;
+	std::cout << "Inside of DateTime, within getMinute()" << std::endl;
 }
 int DateTime::getSecond() const
 {
-	cout << "Inside of DateTime, within getSecond()" << endl;
+	std::cout << "Inside of DateTime, within getSecond()" << std::endl;
 }
-string DateTime::tostring() const
+std::string DateTime::tostring() const
 {
-	cout << "Inside of DateTime, within tostring()" << endl;
+	std::cout << "Inside of DateTime, within tostring()" << std::endl;
 }
 bool DateTime::setYear(int)
 {
-	cout << "Inside of DateTime, within setYear()" << endl;
+	std::cout << "Inside of DateTime, within setYear()" << std::endl;
 }
 bool DateTime::setMonth(int)
 {
-	cout << "Inside of DateTime, within setMonth()" << endl;
+	std::cout << "Inside of DateTime, within setMonth()" << std::endl;
 }
 bool DateTime::setDay(int)
 {
-	cout << "Inside of DateTime, within setDay()" << endl;
+	std::cout << "Inside of DateTime, within setDay()" << std::endl;
 }
 bool DateTime::setHour(int)
 {
-	cout << "Inside of DateTime, within setHour()" << endl;
+	std::cout << "Inside of DateTime, within setHour()" << std::endl;
 }
 bool DateTime::setMinute(int)
 {
-	cout << "Inside of DateTime, within setMinute()" << endl;
+	std::cout << "Inside of DateTime, within setMinute()" << std::endl;
 }
 bool DateTime::setSecond(int)
 {
-	cout << "Inside of DateTime, within setSecond()" << endl;
+	std::cout << "Inside of DateTime, within setSecond()" << std::endl;
 }
 DateTime DateTime::operator+(DateTime)
 {
-	cout << "Inside of DateTime, within operator+()" << endl;
+	std::cout << "Inside of DateTime, within operator+()" << std::endl;
 }
 DateTime DateTime::operator-(DateTime)
 {
-	cout << "Inside of DateTime, within operator-()" << endl;
+	std::cout << "Inside of DateTime, within operator-()" << std::endl;
 }
-iostream DateTime::operator<<(DateTime)
+std::ostream& operator<<(std::ostream& os, const DateTime& dt)
 {
-	cout << "Inside of DateTime, within operator<<()" << endl;
+	os << dt.getMonth() << '/' << dt.getDay() << '/' << dt.getYear();
+    return os;
 }

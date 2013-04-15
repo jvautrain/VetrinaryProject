@@ -3,7 +3,7 @@
 //	Author:	Joshua Vautrain and Chris Drope
 //	Notes:	Header file for visit class	
 //*****************************************************************************
-#include <string>
+#include <String>
 
 #ifndef VISIT_H
 #define VISIT_H
@@ -22,12 +22,12 @@ private:
 	Practitioner practitioner;
 	void promptForComplaint();
 	void promptForCondition();
-	void promptForTreatment()
+	void promptForTreatment();
 public:
 	bool setDate(DateTime);
 	bool setComplaint(string);
 	bool setFollowUpDate(DateTime);
-	bool setConditionstring);
+	bool setCondition(string);
 	bool setTreatment(string);
 	DateTime getDate() const;
 	string getComplaint() const;

@@ -6,6 +6,7 @@
 #ifndef DATETIME_H
 #define DATETIME_H
 #include <string>
+#include <iostream>
 
 class DateTime
 {
@@ -26,7 +27,7 @@ public:
 	int getHour() const;
 	int getMinute() const;
 	int getSecond() const;
-	string tostring() const;
+	std::string tostring() const;
 
 	bool setYear(int);
 	bool setMonth(int);
@@ -36,7 +37,7 @@ public:
 	bool setSecond(int);
 	DateTime operator+(DateTime);
 	DateTime operator-(DateTime);
-	iostream operator<<(DateTime);
+	std::ostream& operator<<(std::ostream&,const DateTime&);
 };
 #endif
 

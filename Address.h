@@ -10,11 +10,11 @@
 
 class Address
 {
-	Public:
-		string addressLine1;
-		string addressLine2;
-		string city;
-		string state;
-		string zip;
+public:
+		std::string addressLine1;
+		std::string addressLine2;
+		std::string city;
+		std::string state;
+		std::string zip;
 };
 #endif
